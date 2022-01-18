@@ -1,0 +1,79 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(27, 27, 44, 0.733);
+    height: 3.8rem;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.nav ul li {
+    list-style: none;
+    padding: 1rem 3.5rem;
+    border: 1px dashed rgba(27, 27, 44, 0.733);
+    transition: border-width 0.4s linear;
+}
+
+.nav ul li:hover {
+    border-bottom: 1px dashed yellow;
+    border-width:5px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav i {
+    margin-left: .5rem;
+    color: yellow;
+}
+
+.hamBx {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid yellow;
+    display: none;
+}
+
+/* media queries */
+
+@media screen and (max-width: 800px) {
+    .nav ul {
+        display: none;
+    }
+
+    .hamBx{
+        display: block;
+        position: absolute;
+        top: .65rem;
+        right: 2rem;
+        z-index: 10;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ham1, .ham2, .ham3 {
+        width: 80%;
+        height: 2px;
+        background-color: yellow;
+        margin: .2rem;
+    }
+
+    .ham2{
+        width: 60%;
+    }
+
+    .ham3{
+        width: 40%;
+    }
+  }
