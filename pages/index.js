@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import IntroSection from '../components/IntroSection/IntroSection'
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"></link>
       </Head>
 
-      <h1></h1>
+     <IntroSection />
 
     </div>
   )

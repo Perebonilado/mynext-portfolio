@@ -4,14 +4,18 @@
      position: absolute;
      top: 3.8rem;
      transition: right .7s linear;
+     background-color: rgba(43, 43, 58, 0.945);
+     width: 100vw;
+     height: 100vh;
+     z-index: 9;
 }
 
 .open{
-    right: .5rem;
+    right: 0rem;
 }
 
 .closed {
-    right: -100%;
+    right: -120%;
 }
 
 
@@ -37,11 +41,11 @@
 
 .sideMenuContainer ul li i{
     margin-left: .5rem;
-    color: yellow;
+    color: rgb(71, 204, 197);
 }
 
 .sideMenuContainer ul li {
-    border: 1px solid yellow;
+    border: 1px solid rgb(71, 204, 197);
     text-align: center;
 }
 

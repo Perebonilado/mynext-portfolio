@@ -21,7 +21,7 @@
 }
 
 .nav ul li:hover {
-    border-bottom: 1px dashed yellow;
+    border-bottom: .5px dashed rgb(71, 204, 197);
     border-width:5px;
 }
 
@@ -32,13 +32,12 @@
 
 .nav i {
     margin-left: .5rem;
-    color: yellow;
+    color: rgb(71, 204, 197);
 }
 
 .hamBx {
     width: 2.5rem;
     height: 2.5rem;
-    border: 1px solid yellow;
     display: none;
 }
 
@@ -65,7 +64,7 @@
     .ham1, .ham2, .ham3 {
         width: 80%;
         height: 2px;
-        background-color: yellow;
+        background-color: rgb(71, 204, 197);
         margin: .2rem;
     }
 
