@@ -6,7 +6,10 @@ const IntroSection = () => {
         <div className={`${IntroStyles['intro-section']}`}>
         <section className={`${IntroStyles['intro-container']}`}>
             <p>Hello, my name is </p>
-            <h3>Eradiri Perebonilado Richard</h3>
+           
+            
+            <h3 className={`${IntroStyles['first-head']}`}>Eradiri  Richard</h3>
+
             <h4>React Js/Next Js Developer</h4>
 
             <p>

@@ -3,20 +3,25 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(27, 27, 44, 0.733);
+    background-color: rgb(27, 27, 44);
     height: 3.8rem;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav ul {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     cursor: pointer;
 }
 
 .nav ul li {
     list-style: none;
     padding: 1rem 3.5rem;
-    border: 1px dashed rgba(27, 27, 44, 0.733);
+    border: .5px dashed rgba(27, 27, 44, 0.733);
     transition: border-width 0.4s linear;
 }
 
