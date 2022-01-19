@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;700&display=swap');
+
+
 .nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(27, 27, 44);
+    background-color: rgb(71, 204, 197);
     height: 3.8rem;
     z-index: 10;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -21,23 +24,22 @@
 .nav ul li {
     list-style: none;
     padding: 1rem 3.5rem;
-    border: .5px dashed rgba(27, 27, 44, 0.733);
     transition: border-width 0.4s linear;
 }
 
 .nav ul li:hover {
-    border-bottom: .5px dashed rgb(71, 204, 197);
-    border-width:5px;
+    
 }
 
 .nav ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #000;
+    font-weight: 600;
 }
 
 .nav i {
     margin-left: .5rem;
-    color: rgb(71, 204, 197);
+    color: 'rgb(71, 204, 197)';
 }
 
 .hamBx {
@@ -69,7 +71,7 @@
     .ham1, .ham2, .ham3 {
         width: 80%;
         height: 2px;
-        background-color: rgb(71, 204, 197);
+        background-color: #000;
         margin: .2rem;
     }
 

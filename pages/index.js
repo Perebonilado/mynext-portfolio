@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import AboutMe from '../components/AboutMe.js/AboutMe'
 import IntroSection from '../components/IntroSection/IntroSection'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
 
      <IntroSection />
+     <AboutMe />
 
     </div>
   )

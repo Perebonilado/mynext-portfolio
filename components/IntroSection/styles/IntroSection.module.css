@@ -1,26 +1,29 @@
 .intro-section {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 10rem;
+    /* align-items: center; */
 }
 
-
-.intro-section>div:last-child {
-    width: 300px;
-    height: 300px;
-    flex-direction: 1;
-    margin-top: 8rem;
+.intro-section img {
+    width: 250px;
+    height: auto;
 }
-
 
 .intro-section section {
     flex-direction: 1;
-    width: 50%;
+    width: fit-content;
+    text-align: justify;
 }
 
-.intro-container {
-    margin-top: 7rem;
-    padding: 0 3rem;
+.intro-section div{
+    display: flex;
+    align-items:  center;
+    padding-left: 5rem;
+}
+
+.intro-section section, .intro-section div {
+    flex: 1;
 }
 
 
@@ -54,10 +57,16 @@
 
     .intro-section section {
         width: 100%;
+        padding-right: 0;
     }
 
     .intro-section>div:last-child {
         margin-top: 3rem;
+        justify-content: center;
+    }
+
+    .intro-section div {
+        padding-left:0;
     }
     
     
