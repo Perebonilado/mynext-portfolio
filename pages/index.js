@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import AboutMe from '../components/AboutMe.js/AboutMe'
 import IntroSection from '../components/IntroSection/IntroSection'
+import WorkAndEducationContainer from '../components/WorkAndEducation/WorkAndEducationContainer'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
 
      <IntroSection />
      <AboutMe />
+     <WorkAndEducationContainer />
 
     </div>
   )

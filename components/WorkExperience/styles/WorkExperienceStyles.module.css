@@ -1,0 +1,48 @@
+.list-container{
+    list-style: none;
+    padding-left: 3rem;
+    position: relative;
+    border-left: 1px solid red;
+}
+
+.main-container li:last-child {
+    border-left: none;
+}
+
+
+.triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 20px solid red;
+    border-bottom: 10px solid transparent;
+    top: 0;
+    left: 0;
+}
+
+
+.list-container p{
+    text-align: justify;
+}
+
+.list-container h3, .list-container p {
+    padding: .5rem 0;
+    line-height: 2rem;
+}
+
+.list-container h3{
+    padding-top: 0;
+}
+
+.list-container h3 {
+    color: rgb(71, 204, 197);
+}
+
+.title {
+    font-style: italic;
+}
+
+.pri-clr{
+    color: rgb(71, 204, 197);
+}

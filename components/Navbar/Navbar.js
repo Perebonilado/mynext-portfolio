@@ -48,7 +48,7 @@ const Navbar = () => {
     <div className={navStyles.ham3}></div>
 </div>
     </nav>
-    <SideMenu />
+    {isMenuOpen && <SideMenu /> }
     </>
      );
 }

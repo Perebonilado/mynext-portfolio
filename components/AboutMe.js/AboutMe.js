@@ -4,7 +4,7 @@ const AboutMe = () => {
     return ( 
         <main className={`${AboutMeStyles['about-me-container']}`}>
             <div>
-            <h3>About Me</h3>
+            <h2 style={{marginBottom: '1rem'}}>About Me</h2>
             <p className={`${AboutMeStyles['about-me-text']}`}>
                 My name is Eradiri Richard, and I am absolutely in love with <span className={`${AboutMeStyles['sec-clr']}`}>coding</span> and making <span className={`${AboutMeStyles['sec-clr']}`}>music</span>. 
                 I started coding in high school when I first had exposure to <span className={`${AboutMeStyles['sec-clr']}`}>HTML</span> and <span className={`${AboutMeStyles['sec-clr']}`}>CSS</span>.
@@ -19,7 +19,7 @@ const AboutMe = () => {
             </div>
 
             <div>
-                <h3>Skills</h3>
+                <h2 style={{marginBottom: '1rem'}}>Skills</h2>
                 <div className={`${AboutMeStyles['skills-box']}`}>
                 <ul>
                     <li><i className='fas fa-wrench'></i>HTML</li>

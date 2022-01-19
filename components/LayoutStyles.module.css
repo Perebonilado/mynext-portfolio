@@ -1,5 +1,6 @@
 .layout {
     padding: 0 10rem;
+    padding-left: 15rem;
 }
 
 @media screen and (max-width: 800px) {
