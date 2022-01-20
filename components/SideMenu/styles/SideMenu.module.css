@@ -1,7 +1,7 @@
 .sideMenuContainer{
      height: 100vh;
      width: 15rem;
-     position: absolute;
+     position: fixed;
      top: 3.8rem;
      transition: right .7s linear;
      background-color: rgba(43, 43, 58, 0.945);
@@ -54,28 +54,28 @@
     width: 8rem;
     margin-top: 1rem;
     position: fixed;
-    top: 4rem;
+    top: 7rem;
     transition: right .6s ease-in-out,width .4s linear;
 }
 
 .sideMenuContainer ul li:nth-child(2) {
     width: 8rem;
     position: fixed;
-    top: 10rem;
+    top: 13rem;
     transition: right .6s ease-in-out .1s, width .4s linear;
 }
 
 .sideMenuContainer ul li:nth-child(3){
     width: 8rem;
     position: fixed;
-    top: 15rem;
+    top: 18rem;
     transition: right .7s ease-in-out .2s, width .4s linear;
 }
 
 .sideMenuContainer ul li:last-child{
     width: 8rem;
     position: fixed;
-    top: 20rem;
+    top: 23rem;
     transition: right .6s ease-in-out .45s, width .4s linear;
 }
 

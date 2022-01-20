@@ -43,12 +43,24 @@ const Navbar = () => {
 </ul>
 
 <div className={navStyles.hamBx} onClick={handleClick}>
-    <div className={navStyles.ham1}></div>
-    <div className={navStyles.ham2}></div>
-    <div className={navStyles.ham3}></div>
+    <div className={
+        `${!isMenuOpen && navStyles['ham1']}
+        ${isMenuOpen && navStyles['ham1open']}
+        ${navStyles['hamitem']}`
+    }></div>
+    <div className={
+        `${!isMenuOpen && navStyles['ham2']}
+        ${isMenuOpen && navStyles['ham2open']}
+        ${navStyles['hamitem']}`
+    }></div>
+    <div className={
+        `${!isMenuOpen && navStyles['ham3']}
+        ${isMenuOpen && navStyles['ham3open']}
+        ${navStyles['hamitem']}`
+    }></div>
 </div>
     </nav>
-    {isMenuOpen && <SideMenu /> }
+    <SideMenu /> 
     </>
      );
 }

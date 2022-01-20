@@ -3,9 +3,10 @@ import AboutMe from '../components/AboutMe.js/AboutMe'
 import IntroSection from '../components/IntroSection/IntroSection'
 import WorkAndEducationContainer from '../components/WorkAndEducation/WorkAndEducationContainer'
 import ProjectContainer from '../components/Projects/ProjectContainer'
-import ProjectCard from '../components/Projects/ProjectCard'
+
 
 import { server } from '../config'
+import MailMe from '../components/MailMe/MailMe'
 
 export default function Home({projects}) {
   return (
@@ -17,7 +18,7 @@ export default function Home({projects}) {
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"></link>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
       </Head>
-
+    <MailMe />
      <IntroSection />
      <AboutMe /> 
      <ProjectContainer projects={projects}/>

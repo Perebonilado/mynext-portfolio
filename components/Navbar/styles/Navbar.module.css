@@ -45,9 +45,46 @@
 }
 
 .hamBx {
+    position: relative;
     width: 2.5rem;
     height: 2.5rem;
     display: none;
+}
+
+.ham1open, .ham2open, .ham3open{
+    width: 80%;
+    height: 2px;
+    background-color: rgb(134, 255, 249);
+}
+
+
+.hamitem {
+    transition: transform .5s linear, background-color .5s ease-in;
+}
+
+.hamBx:hover .hamitem{
+    background-color: rgb(134, 255, 249);
+}
+
+.ham1open {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) rotateZ(45deg) !important;
+}
+
+.ham2open {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) rotateZ(-45deg);
+}
+
+.ham3open {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) rotateZ(-45deg);
 }
 
 /* media queries */

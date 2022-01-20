@@ -3,6 +3,8 @@ import { server } from '../../../config'
 import { motion } from 'framer-motion'
 import ProjectStyles from '../../../styles/ProjectStyles.module.css'
 
+
+
 const Project = ({project}) => {
 
     const { name, tech, description, url } = project
@@ -41,7 +43,6 @@ const Project = ({project}) => {
         <h2>Why I Built This</h2>
         <p className={`${ProjectStyles['description']}`}>{description}</p>
         </div>
-
     </motion.div>
      );
 }
