@@ -21,7 +21,10 @@ const AboutMe = () => {
 
         
          className={`${AboutMeStyles['about-me-container']}`}>
-            <div>
+            <motion.div 
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}>
             <h2 style={{marginBottom: '1rem'}}>About Me</h2>
             <p className={`${AboutMeStyles['about-me-text']}`}>
                 My name is Eradiri Richard, and I am absolutely in love with <span className={`${AboutMeStyles['sec-clr']}`}>coding</span> and making <span className={`${AboutMeStyles['sec-clr']}`}>music</span>. 
@@ -34,9 +37,12 @@ const AboutMe = () => {
                 technologies such as <span className={`${AboutMeStyles['sec-clr']}`}>JavaScript</span>, <span className={`${AboutMeStyles['sec-clr']}`}>React</span> and <span className={`${AboutMeStyles['sec-clr']}`}>Next js</span>. I have not stopped coding ever since. I hope
                 to contribute to tech by aiding in building revolutionary technology that changes lives!
             </p>
-            </div>
+            </motion.div>
 
-            <div>
+            <motion.div 
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}>
                 <h2 style={{marginBottom: '1rem'}}>Skills</h2>
                 <div className={`${AboutMeStyles['skills-box']}`}>
                 <ul>
@@ -51,7 +57,7 @@ const AboutMe = () => {
                     <li><i className='fas fa-wrench'></i>Next js</li>
                 </ul>
                 </div>
-            </div>
+            </motion.div>
         </motion.main>
      );
 }

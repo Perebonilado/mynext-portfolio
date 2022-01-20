@@ -2,9 +2,7 @@ import navStyles from './styles/Navbar.module.css'
 import SideMenu from '../SideMenu/SideMenu';
 import { useAppContext } from '../../context/state';
 
-
 const Navbar = () => {
-    
     
     const {
         setIsMenuClosed, 
