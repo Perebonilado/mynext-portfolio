@@ -1,8 +1,26 @@
 import AboutMeStyles from './styles/AboutMeStyles.module.css'
+import { motion } from 'framer-motion';
 
 const AboutMe = () => {
     return ( 
-        <main className={`${AboutMeStyles['about-me-container']}`}>
+        <motion.main
+        
+        initial="hidden" animate="visible" variants={{
+  hidden: {
+    scale: .8,
+    opacity: 0
+  },
+  visible: {
+    scale: 1,
+    opacity: 1,
+    transition: {
+      delay: .4
+    }
+  },
+}}
+
+        
+         className={`${AboutMeStyles['about-me-container']}`}>
             <div>
             <h2 style={{marginBottom: '1rem'}}>About Me</h2>
             <p className={`${AboutMeStyles['about-me-text']}`}>
@@ -34,7 +52,7 @@ const AboutMe = () => {
                 </ul>
                 </div>
             </div>
-        </main>
+        </motion.main>
      );
 }
  

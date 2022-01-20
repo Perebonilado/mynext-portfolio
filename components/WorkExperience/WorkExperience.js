@@ -1,5 +1,6 @@
 import { WorkExperinceData } from "../../data/WorkExperience/WorkExperience";
 import WorkExperienceStyles from './styles/WorkExperienceStyles.module.css'
+import { motion } from "framer-motion";
 
 const WorkExperience = (props) => {
     return ( 
@@ -7,7 +8,14 @@ const WorkExperience = (props) => {
         {WorkExperinceData.map((data)=>{
             const { companyName, role, description, date, id } = data
             return (
-                <li key={id} className={`${WorkExperienceStyles['list-container']}`}>
+                <motion.li
+
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        
+                
+                 key={id} className={`${WorkExperienceStyles['list-container']}`}>
                     <div className={`${WorkExperienceStyles['triangle']}`}></div>
                     <h3>{companyName}</h3>
                     <p className={`${WorkExperienceStyles['title']}`}> <span className={`${WorkExperienceStyles['pri-clr']}`}>{role}</span> {date}</p>
@@ -18,7 +26,7 @@ const WorkExperience = (props) => {
                             )
                         })}
                     
-                </li>
+                </motion.li>
             )
         })}
     </ul>

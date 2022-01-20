@@ -1,17 +1,34 @@
 import Link from "next/link";
 import { server } from '../../../config'
+import { motion } from 'framer-motion'
 
 const Project = ({project}) => {
 
     const { name, tech, description } = project
 
     return ( 
-    <>
+    <motion.div
+    
+    initial="hidden" animate="visible" variants={{
+  hidden: {
+    scale: .8,
+    opacity: 0
+  },
+  visible: {
+    scale: 1,
+    opacity: 1,
+    transition: {
+      delay: .4
+    }
+  },
+}}
+    
+    >
         <h1>{name}</h1>
         <p>{tech}</p>
         <p>{description}</p>
         <Link href='/'>Back</Link>
-    </>
+    </motion.div>
      );
 }
 

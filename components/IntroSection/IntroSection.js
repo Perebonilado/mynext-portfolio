@@ -1,9 +1,26 @@
 import IntroStyles from './styles/IntroSection.module.css'
 import Image from 'next/image';
+import { motion } from 'framer-motion';
+
 
 const IntroSection = () => {
     return ( 
-        <div 
+        <motion.div 
+        
+        initial="hidden" animate="visible" variants={{
+  hidden: {
+    scale: .8,
+    opacity: 0
+  },
+  visible: {
+    scale: 1,
+    opacity: 1,
+    transition: {
+      delay: .4
+    }
+  },
+}}
+
         className={`${IntroStyles['intro-section']}`}>
         <section className={`${IntroStyles['intro-container']}`}>
             <p className={`${IntroStyles['hello-text']}`}>Hello, my name is </p>
@@ -25,7 +42,7 @@ const IntroSection = () => {
         </div>
 
         
-        </div>
+        </motion.div>
      );
 }
 
