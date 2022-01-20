@@ -14,7 +14,7 @@ const WorkExperience = (props) => {
     
                         {description.map((info)=>{
                             return (
-                                <p key={props.index}>{info}</p>
+                                <p key={info}>{info}</p>
                             )
                         })}
                     

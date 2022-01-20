@@ -1,0 +1,51 @@
+.mail-me-container {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: .5rem;
+    background-color: rgb(38, 134, 130);
+    position: fixed;
+    top: 5rem;
+    right: 10rem;
+    cursor: pointer;
+    animation: bounce 1.5s  infinite;
+    z-index: 4;
+}
+
+
+.mail-me-triangleBx{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+}
+
+.mail-me-triangleBx:hover{
+    color: rgb(35, 201, 192);
+}
+
+.mail-me-triangleBx::before{
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -1rem;
+    width: 0;
+    height: 0;
+    border-top: 12.5px solid transparent;
+    border-right: 25px solid rgb(38, 134, 130);
+    border-bottom: 12.5px solid transparent;
+}
+
+@keyframes bounce {
+    0% {top: 5rem;}
+    50% {top: 6rem;}
+    100% {top: 5rem;}
+}
+
+@media screen and (max-width: 800px) {
+    .mail-me-container{
+        right: 1rem;
+    }
+}

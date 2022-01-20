@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(71, 204, 197);
+    background-color: rgba(71, 204, 197, 0.651);
     height: 3.8rem;
     z-index: 10;
     display: flex;
@@ -19,16 +19,18 @@
     justify-content: flex-end;
     align-items: center;
     cursor: pointer;
+    padding-right: .5rem;
 }
 
 .nav ul li {
     list-style: none;
     padding: 1rem 3.5rem;
-    transition: border-width 0.4s linear;
+    transition: background-color 0.4s linear;
+    border-radius: .5rem;
 }
 
 .nav ul li:hover {
-    
+    background-color: rgb(71, 204, 197);
 }
 
 .nav ul li a{

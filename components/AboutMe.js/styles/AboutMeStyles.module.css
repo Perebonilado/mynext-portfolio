@@ -48,6 +48,7 @@
 @media screen and (max-width: 800px) {
     .about-me-container{
         flex-direction: column;
+        align-items: center;
     }
 
     .about-me-container>div:last-child{
@@ -58,4 +59,5 @@
     .about-me-container h2 {
         text-align: center;
     }
+
 }

@@ -3,7 +3,8 @@ import Image from 'next/image';
 
 const IntroSection = () => {
     return ( 
-        <div className={`${IntroStyles['intro-section']}`}>
+        <div 
+        className={`${IntroStyles['intro-section']}`}>
         <section className={`${IntroStyles['intro-container']}`}>
             <p className={`${IntroStyles['hello-text']}`}>Hello, my name is </p>
            

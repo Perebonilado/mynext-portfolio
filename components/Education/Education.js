@@ -10,7 +10,7 @@ const Education = (props) => {
             const {schoolName, degree, date } = data
 
             return (
-                <li key={props.index} className={`${EducationStyles['list-container']}`}>
+                <li key={date} className={`${EducationStyles['list-container']}`}>
                 <div className={`${EducationStyles['triangle']}`}></div>
                     <h3>{schoolName}</h3>
                     <p>{degree}</p>
