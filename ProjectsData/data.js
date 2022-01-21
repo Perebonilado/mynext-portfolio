@@ -44,9 +44,22 @@ export const data = [
         As such, I built this application which has an in-built timer, computer generated vocals to update users on how much time they have left and when the time is up. Also, it has an in-built key for identifying organisms.
         Moreover, after collecting and identifying organisms, we would have to then check their indexes and calculate the water quality. This process was prone to errors. As such, this application is programmed to check and match the index of the
         organism inputed, calculate the water index automatically and tell the user how polluted the water body is, saving time, increasing the quality of data and reducing errors.`,
-        url: 'https://res.cloudinary.com/dt0wfaxft/image/upload/v1642515708/IMG-3077_m7ynpe.jpg',
-        github: '',
-        projectLink: ''
+        url: 'https://res.cloudinary.com/dt0wfaxft/image/upload/v1642806219/E5BD6431-8FAF-49CA-ACB2-EF07B36B1ADF_lmgmck.jpg',
+        github: 'https://github.com/Perebonilado/water-quality',
+        projectLink: 'https://perebonilado.github.io/water-quality/'
+    },
+
+    {
+        id: 5,
+        name: 'Loan Calculator',
+        tech: 'HTML, CSS, and JavaScript',
+        description: `This loan calculator was one of my earliest projects. Users 
+        can input the amount they intend to borrow, at what interest rate, and for how long. This 
+        calculator then takes in those values, utilizes a finance formular and gives the user an amount
+        of how much they would pay back.`,
+        url: 'https://res.cloudinary.com/dt0wfaxft/image/upload/v1642806218/1346D013-0468-49AB-9EDA-E7F58F87A930_mdpevr.jpg',
+        github: 'https://github.com/Perebonilado/loan-calculator',
+        projectLink: 'https://perebonilado.github.io/loan-calculator/'
     },
 
 ]
