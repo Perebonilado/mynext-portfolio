@@ -1,8 +1,8 @@
 .container {
     display: flex;
-    /* align-items: center; */
     padding-top: 10rem;
     position: relative;
+    
 }
 
 .container>div:first-child a{
@@ -34,6 +34,7 @@
 
 .container h1{
     color: rgb(71, 204, 197);
+    text-align: center;
 }
 
 .container a{
@@ -47,21 +48,27 @@
     color: rgb(49, 143, 138);
     border-left: 2px solid rgb(129, 240, 234);
     border-bottom: 2px solid rgb(129, 240, 234);
-    padding-left: .5rem;
     padding-bottom: .5rem;
+    align-self: center;
+    width: 50%;
+    text-align: center;
 }
 
 .project-link{
     text-decoration: none;
     border-right: 2px solid rgb(129, 240, 234);
+    border-left: 2px solid rgb(129, 240, 234);
     border-bottom: 2px solid rgb(129, 240, 234);
-    padding-right: .5rem;
     padding-bottom: .5rem;
     color: rgb(49, 143, 138);
+    align-self: center !important;
+    width: 100%;
+    text-align: center;
 }
 
 .container img {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     height: auto;
     margin-bottom: 1rem;
     border-radius: .5rem;
@@ -76,8 +83,9 @@
     background-color:rgb(71, 204, 197) ;
     position: absolute;
     top: 6rem;
-    left: -.5rem;
+    left: -2.5rem;
 }
+
 
 .container>div:first-child>a:first-child:hover{
     background-color:rgb(137, 241, 236) ;
@@ -91,16 +99,18 @@
 .tech {
     font-style: italic;
     font-size: 14px;
-    padding: .5rem 0;
+    padding: 1.5rem 0;
+    text-align: center;
 }
 
 .description {
     padding: 1rem 0;
     text-align: justify;
     line-height: 2rem;
+    height: 50vh;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 930px) {
 
     .container{
         flex-direction: column;

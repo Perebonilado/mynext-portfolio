@@ -39,7 +39,6 @@ const Navbar = () => {
     <li><a href="">About <i className="fal fa-user"></i></a></li>
     <li><a href="">Experience <i className="fal fa-briefcase"></i></a></li>
     <li><a href="">Projects <i className="fal fa-construction"></i></a></li>
-    <li><a href="">Contact <i className="far fa-address-book"></i></a></li>
 </ul>
 
 <div className={navStyles.hamBx} onClick={handleClick}>

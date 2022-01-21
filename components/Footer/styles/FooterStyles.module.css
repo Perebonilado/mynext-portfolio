@@ -27,3 +27,12 @@
 .container span {
     color: rgb(134, 255, 249);
 }
+
+@media screen and (min-height: 800px) {
+    .container{
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        margin-top: 2rem;
+    }
+}

@@ -34,12 +34,6 @@ const SideMenu = () => {
                 ${isMenuOpen && SideMenuStyle['third-open']}`
                 }><a href="">Projects <i className="fal fa-construction"></i></a>
             </li>
-
-            <li className={
-                `${isMenuClosed && SideMenuStyle['close-all']}
-                ${isMenuOpen && SideMenuStyle['fourth-open']}`
-                }><a href="">Contact <i className="far fa-address-book"></i></a>
-            </li>
         </ul>
     </div>
     

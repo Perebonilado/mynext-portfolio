@@ -61,7 +61,7 @@
 .sideMenuContainer ul li:nth-child(2) {
     width: 8rem;
     position: fixed;
-    top: 13rem;
+    top: 15.5rem;
     transition: right .6s ease-in-out .1s, width .4s linear;
 }
 
