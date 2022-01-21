@@ -22,10 +22,10 @@ const AboutMe = () => {
         
          className={`${AboutMeStyles['about-me-container']}`}>
             <motion.div 
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        initial={{ opacity: 0, scale: .7 }}
+        whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}>
-            <h2 style={{marginBottom: '1rem'}}>About Me</h2>
+            <h2 style={{marginBottom: '1rem'}} id='about'>About Me</h2>
             <p className={`${AboutMeStyles['about-me-text']}`}>
                 My name is Eradiri Richard, and I am absolutely in love with <span className={`${AboutMeStyles['sec-clr']}`}>coding</span> and making <span className={`${AboutMeStyles['sec-clr']}`}>music</span>. 
                 I started coding in high school when I first had exposure to <span className={`${AboutMeStyles['sec-clr']}`}>HTML</span> and <span className={`${AboutMeStyles['sec-clr']}`}>CSS</span>.
@@ -40,8 +40,8 @@ const AboutMe = () => {
             </motion.div>
 
             <motion.div 
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        initial={{ opacity: 0, scale: .7 }}
+        whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}>
                 <h2 style={{marginBottom: '1rem'}}>Skills</h2>
                 <div className={`${AboutMeStyles['skills-box']}`}>

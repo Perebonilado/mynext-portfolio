@@ -1,6 +1,7 @@
 import navStyles from './styles/Navbar.module.css'
 import SideMenu from '../SideMenu/SideMenu';
 import { useAppContext } from '../../context/state';
+import Link from 'next/link'
 
 const Navbar = () => {
     
@@ -36,9 +37,9 @@ const Navbar = () => {
         <>
     <nav className={navStyles.nav}>
 <ul>
-    <li><a href="">About <i className="fal fa-user"></i></a></li>
-    <li><a href="">Experience <i className="fal fa-briefcase"></i></a></li>
-    <li><a href="">Projects <i className="fal fa-construction"></i></a></li>
+    <li><Link href="/#about">About </Link><i className="fal fa-user"></i></li>
+    <li><Link href="/#experience">Experience</Link><i className="fal fa-briefcase"></i></li>
+    <li><Link href="/#projects">Projects</Link><i className="fal fa-construction"></i></li>
 </ul>
 
 <div className={navStyles.hamBx} onClick={handleClick}>

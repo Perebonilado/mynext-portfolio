@@ -8,9 +8,9 @@ const ProjectCard = ({ imageSrc, imageAlt, imageTitle, technologies, id}) => {
     return ( 
         <Link href="/project/[id]" as={`project/${id}`}>
         <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
+        initial={{ opacity: 0, scale: .7 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: false }}
 
      
         whileTap={{ scale: 0.8 }}

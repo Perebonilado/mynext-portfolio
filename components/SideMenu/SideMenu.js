@@ -1,6 +1,7 @@
 import SideMenuStyle from './styles/SideMenu.module.css'
 import { useState } from 'react'
 import { useAppContext } from '../../context/state'
+import Link from 'next/link'
 
 const SideMenu = () => {
 
@@ -16,23 +17,26 @@ const SideMenu = () => {
     ${SideMenuStyle['sideMenuContainer']} 
     ${isMenuClosed && SideMenuStyle['closed']} 
     ${isMenuOpen && SideMenuStyle['open']}`}>
-        <ul>
+        <ul onClick={()=>{
+                setIsMenuOpen((prevState)=>prevState = false)
+                setIsMenuClosed((prevState)=>prevState = true)
+        }}>
             <li className={
                 `${isMenuClosed && SideMenuStyle['close-all']}
                 ${isMenuOpen && SideMenuStyle['first-open']}`
-                }><a href="">About <i className="fal fa-user"></i></a>
+                }><Link href="/#about">About </Link><i className="fal fa-user"></i>
             </li>
 
             <li className={
                 `${isMenuClosed && SideMenuStyle['close-all']}
                 ${isMenuOpen && SideMenuStyle['second-open']}`
-                }><a href="">Experience <i className="fal fa-briefcase"></i></a>
+                }><Link href="/#experience">Experience</Link><i className="fal fa-briefcase"></i>
             </li>
 
             <li className={
                 `${isMenuClosed && SideMenuStyle['close-all']}
                 ${isMenuOpen && SideMenuStyle['third-open']}`
-                }><a href="">Projects <i className="fal fa-construction"></i></a>
+                }><Link href="/#projects">Projects</Link><i className="fal fa-construction"></i>
             </li>
         </ul>
     </div>

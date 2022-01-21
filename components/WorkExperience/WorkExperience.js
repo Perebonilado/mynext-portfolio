@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 
 const WorkExperience = (props) => {
     return ( 
-    <ul className={`${WorkExperienceStyles['main-container']}`}>
+    <ul className={`${WorkExperienceStyles['main-container']}`} id="experience">
         {WorkExperinceData.map((data)=>{
             const { companyName, role, description, date, id } = data
             return (
                 <motion.li
 
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        initial={{ opacity: 0, scale: .7 }}
+        whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}
         
                 

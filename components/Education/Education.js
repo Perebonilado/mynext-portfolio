@@ -13,9 +13,9 @@ const Education = (props) => {
             return (
                 <motion.li
                 
-                initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
+                initial={{ opacity: 0, scale: .7 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: false }}
 
                  key={date} className={`${EducationStyles['list-container']}`}>
                 <div className={`${EducationStyles['triangle']}`}></div>
