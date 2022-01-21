@@ -16,7 +16,8 @@
     text-decoration: none;
     color: #000;
     transition: color .3s ease-in-out;
-    margin: 0 .3rem;
+    margin: 0 .8rem;
+    padding: .5rem 0;
 }
 
 .container a:hover {
