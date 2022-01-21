@@ -31,7 +31,7 @@ const IntroSection = () => {
             <h4>React Js/Next Js Developer</h4>
 
             <p>
-            I am frontend developer focused on building excellent
+            I am a frontend developer focused on building excellent
             <span className={`${IntroStyles['yellow']}`}> user interfaces</span> and delivering worldclass <span className={`${IntroStyles['yellow']}`}>user experiences</span> using the latest technologies.
             I love working in environments that allow me to grow and contribute positively.
             </p>

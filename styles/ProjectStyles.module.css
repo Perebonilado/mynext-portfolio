@@ -2,6 +2,7 @@
     display: flex;
     /* align-items: center; */
     padding-top: 10rem;
+    position: relative;
 }
 
 .container>div:first-child a{
@@ -33,6 +34,10 @@
 
 .container h1{
     color: rgb(71, 204, 197);
+}
+
+.container a{
+    transition: background-color .3s ease-in, color .3s ease-in-out;
 }
 
 .container>div:first-child a:last-child{
@@ -69,6 +74,17 @@
     padding:.5rem 1rem;
     border-radius: .2rem;
     background-color:rgb(71, 204, 197) ;
+    position: absolute;
+    top: 6rem;
+    left: -.5rem;
+}
+
+.container>div:first-child>a:first-child:hover{
+    background-color:rgb(137, 241, 236) ;
+}
+
+.project-link:hover, .container>div:first-child a:last-child:hover{
+   color:rgb(137, 241, 236) ;
 }
 
 
@@ -81,6 +97,7 @@
 .description {
     padding: 1rem 0;
     text-align: justify;
+    line-height: 2rem;
 }
 
 @media screen and (max-width: 800px) {
