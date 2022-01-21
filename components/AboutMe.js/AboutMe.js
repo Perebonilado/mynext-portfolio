@@ -56,6 +56,12 @@ const AboutMe = () => {
                     <li><i className='fas fa-wrench'></i>React js</li>
                     <li><i className='fas fa-wrench'></i>Next js</li>
                 </ul>
+
+                <ul>
+                    <li><i className='fas fa-wrench'></i>Node js</li>
+                    <li><i className='fas fa-wrench'></i>Express</li>
+                    <li><i className='fas fa-wrench'></i>NoSQL(Mongo db)</li>
+                </ul>
                 </div>
             </motion.div>
         </motion.main>

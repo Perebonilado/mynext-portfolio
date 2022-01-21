@@ -15,7 +15,9 @@ export const data = [
         id: 2,
         name: 'CICOD Self Service',
         tech: 'HTML, CSS, and JavaScript, React js',
-        description: 'a description placeholder for now',
+        description: `This is a self service application allowing users communicate in order to resolve escalations rasied as tickets.
+        A ticket might be an issue that needs resolving, as such, with the use of the chat feature, users can communicate with each other based on a ticket raised and track the status of that ticket. The ticket ID is entered and the issue can be resolved using 
+        this web application. This web app was built using React js. I utilized the context api, react hooks such as useState and useEffect to build this project. The design was implemented using vanilla CSS as it was translated from an Adobe XD file by me. I built this product for Crown Interactive LTD, a software company based in Lagos, Nigeria.`,
         url: 'https://res.cloudinary.com/dt0wfaxft/image/upload/v1642515708/IMG-3077_m7ynpe.jpg',
         github: '',
         projectLink: ''
@@ -25,7 +27,9 @@ export const data = [
         id: 3,
         name: 'Crypto P2P Landing Page',
         tech: 'HTML, CSS, and JavaScript',
-        description: 'a description placeholder for now',
+        description: `This is a landing page for a crypto trading platform in Africa. I enjoyed working on this project as I quite often stay in the know on the crypto markets.
+        I utilized an API to fetch data on current crypto prices. I engineered this using Vanilla Js and Vanilla CSS. It is fully responsive and renders crypto data in real time. This 
+        application allows users to carry out pair to pair trading of crypto currencies.`,
         url: 'https://res.cloudinary.com/dt0wfaxft/image/upload/v1642515708/IMG-3077_m7ynpe.jpg',
         github: '',
         projectLink: ''
@@ -35,7 +39,11 @@ export const data = [
         id: 4,
         name: 'Water Quality Checker',
         tech: 'HTML, CSS, and JavaScript',
-        description: 'a description placeholder for now',
+        description: `I graduated from the department of Zoology in the University of Ibadan. While studying, we would go to the field to carry out water
+        quality analysis using macro invertebrates. After collecting the macro invertebrates, someone would start a timer and another peroson would have a text book handy for idetifying specimens. It was tedious.
+        As such, I built this application which has an in-built timer, computer generated vocals to update users on how much time they have left and when the time is up. Also, it has an in-built key for identifying organisms.
+        Moreover, after collecting and identifying organisms, we would have to then check their indexes and calculate the water quality. This process was prone to errors. As such, this application is programmed to check and match the index of the
+        organism inputed, calculate the water index automatically and tell the user how polluted the water body is, saving time, increasing the quality of data and reducing errors.`,
         url: 'https://res.cloudinary.com/dt0wfaxft/image/upload/v1642515708/IMG-3077_m7ynpe.jpg',
         github: '',
         projectLink: ''
