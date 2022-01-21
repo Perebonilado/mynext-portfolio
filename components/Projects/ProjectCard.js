@@ -6,7 +6,7 @@ import { motion, Variants } from 'framer-motion'
 
 const ProjectCard = ({ imageSrc, imageAlt, imageTitle, technologies, id}) => {
     return ( 
-        <Link href="/project/[id]" as={`project/${id}`}>
+        <Link href="/project/[id]" as={`project/${id}`} passHref>
         <motion.div
         initial={{ opacity: 0, scale: .7 }}
         whileInView={{ opacity: 1, scale: 1 }}
