@@ -3,6 +3,7 @@ import AboutMe from '../components/AboutMe.js/AboutMe'
 import IntroSection from '../components/IntroSection/IntroSection'
 import WorkAndEducationContainer from '../components/WorkAndEducation/WorkAndEducationContainer'
 import ProjectContainer from '../components/Projects/ProjectContainer'
+import { data } from '../ProjectsData/data'
 
 
 import { server } from '../config'
@@ -25,8 +26,9 @@ export default function Home({projects}) {
 }
 
 export async function getStaticProps () {
-  const res = await fetch(`${server}/api/projects`)
-  const projects = await res.json()
+  // const res = await fetch(`${server}/api/projects`)
+  // const projects = await res.json()
+  const projects =  data
 
   return {
     props: {projects}

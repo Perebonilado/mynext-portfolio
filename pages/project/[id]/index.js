@@ -1,9 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
-import { server } from '../../../config'
 import { motion } from 'framer-motion'
 import ProjectStyles from '../../../styles/ProjectStyles.module.css'
-import { data } from '../../../ProjectsData/data'
+import { data }  from '../../../ProjectsData/data'
 
 
 const Project = ({project}) => {
@@ -58,23 +57,20 @@ const Project = ({project}) => {
 export default Project;
 
 export async function getStaticProps (context) {
-    const res = await fetch(`${server}/api/projects/${context.params.id}`, { headers: {
-      'Content-Type' : 'application/json'
-    }})
-    const project = await res.json()
-
-    console.log(project)
-
+    
+    const id = context.params.id
+    const datum = data.filter((project)=>project.id == id)
+    const project = datum[0]
     return {
         props: {project}
     }
 }
 
+console.log(data)
+
 export async function getStaticPaths () {
-    const res = await fetch(`${server}/api/projects`, { headers: {
-      'Content-Type' : 'application/json'
-    }})
-    const projects = await res.json()
+    
+    const projects = data
 
     const id = projects.map((project)=>{
         return {params: {id: project.id.toString()}}
