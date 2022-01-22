@@ -1,12 +1,14 @@
 import ProjectCardStyle from './styles/ProjectCardStyle.module.css'
 import Link from 'next/link';
 import { motion, Variants } from 'framer-motion'
+import { useRouter } from 'next/router'
 
 
 
 const ProjectCard = ({ imageSrc, imageAlt, imageTitle, technologies, id}) => {
+    
     return ( 
-        <Link href="/project/[id]" as={`project/${id}`} passHref>
+        <Link href={{pathname: '/project/[id]', query:{id: id}}} passHref>
         <motion.div
         initial={{ opacity: 0, scale: .7 }}
         whileInView={{ opacity: 1, scale: 1 }}

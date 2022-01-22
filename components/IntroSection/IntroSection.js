@@ -38,7 +38,7 @@ const IntroSection = () => {
         </section>
 
         <div>
-        <img src='https://res.cloudinary.com/dt0wfaxft/image/upload/v1642515708/IMG-3077_m7ynpe.jpg'/>
+        <img src='https://res.cloudinary.com/dt0wfaxft/image/upload/v1642515708/IMG-3077_m7ynpe.jpg' alt='photo of me'/>
         </div>
 
         
