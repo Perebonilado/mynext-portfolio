@@ -58,7 +58,9 @@ const Project = ({project}) => {
 export default Project;
 
 export async function getStaticProps (context) {
-    const res = await fetch(`${server}/api/projects/${context.params.id}`)
+    const res = await fetch(`${server}/api/projects/${context.params.id}`, { headers: {
+      'Content-Type' : 'application/json'
+    }})
     const project = await res.json()
 
     console.log(project)
