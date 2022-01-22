@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { motion } from 'framer-motion'
 import ProjectStyles from '../../../styles/ProjectStyles.module.css'
-import { data }  from '../../../ProjectsData/data'
+import data   from '../../../ProjectsData/data'
 
 
 const Project = ({project}) => {
