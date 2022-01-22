@@ -20,7 +20,6 @@ export default function Home({projects}) {
      <AboutMe /> 
      <ProjectContainer projects={projects}/>
      <WorkAndEducationContainer />
-
     </div>
   )
 }

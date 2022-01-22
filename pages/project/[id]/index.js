@@ -3,7 +3,7 @@ import Link from "next/link";
 import { server } from '../../../config'
 import { motion } from 'framer-motion'
 import ProjectStyles from '../../../styles/ProjectStyles.module.css'
-
+import { data } from '../../../ProjectsData/data'
 
 
 const Project = ({project}) => {
