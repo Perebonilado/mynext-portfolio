@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;700&display=swap');
+
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(71, 204, 197, 0.651);
+    height: 3.8rem;
+    z-index: 10;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    padding-right: .5rem;
+}
+
+.nav ul li {
+    list-style: none;
+    padding: 1rem 3.5rem;
+    transition: background-color 0.4s linear;
+    border-radius: .5rem;
+}
+
+.nav ul li:hover {
+    background-color: rgb(71, 204, 197);
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.nav i {
+    margin-left: .5rem;
+    color: rgb(104, 241, 235);
+}
+
+.hamBx {
+    position: relative;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: none;
+}
+
+.ham1open, .ham2open, .ham3open{
+    width: 80%;
+    height: 2px;
+    background-color: rgb(134, 255, 249);
+}
+
+
+.hamitem {
+    transition: transform .5s linear, background-color .5s ease-in;
+}
+
+.hamBx:hover .hamitem{
+    background-color: rgb(134, 255, 249);
+}
+
+.ham1open {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) rotateZ(45deg) !important;
+}
+
+.ham2open {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) rotateZ(-45deg);
+}
+
+.ham3open {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) rotateZ(-45deg);
+}
+
+/* media queries */
+
+@media screen and (max-width: 800px) {
+    .nav ul {
+        display: none;
+    }
+
+    .hamBx{
+        display: block;
+        position: absolute;
+        top: .65rem;
+        right: 2rem;
+        z-index: 10;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ham1, .ham2, .ham3 {
+        width: 80%;
+        height: 2px;
+        background-color: #000;
+        margin: .2rem;
+    }
+
+    .ham2{
+        width: 60%;
+    }
+
+    .ham3{
+        width: 40%;
+    }
+  }

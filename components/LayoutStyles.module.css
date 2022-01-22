@@ -1,0 +1,28 @@
+.layout {
+    padding: 0 10rem;
+    padding-left: 15rem;
+}
+
+@media screen and (max-width: 800px) {
+
+    .layout {
+        padding: 0 2.5rem;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+
+    .layout {
+        padding: 0 6rem;
+    }
+
+}
+
+@media screen and (max-width: 910px) {
+
+    .layout {
+        padding: 0 3rem;
+    }
+
+}

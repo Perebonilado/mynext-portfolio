@@ -1,0 +1,121 @@
+.sideMenuContainer{
+     height: 100vh;
+     width: 15rem;
+     position: fixed;
+     top: 3.8rem;
+     transition: right .7s linear;
+     background-color: rgba(43, 43, 58, 0.945);
+     width: 100vw;
+     height: 100vh;
+     z-index: 9;
+}
+
+.open{
+    right: 0rem;
+}
+
+.closed {
+    right: -120%;
+}
+
+
+.sideMenuContainer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sideMenuContainer ul li {
+    list-style: none;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.sideMenuContainer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sideMenuContainer ul li i{
+    margin-left: .5rem;
+    color: rgb(71, 204, 197);
+}
+
+.sideMenuContainer ul li {
+    border: 1px solid rgb(71, 204, 197);
+    text-align: center;
+}
+
+
+.sideMenuContainer ul li:first-child{
+    width: 8rem;
+    margin-top: 1rem;
+    position: fixed;
+    top: 7rem;
+    transition: right .6s ease-in-out,width .4s linear;
+}
+
+.sideMenuContainer ul li:nth-child(2) {
+    width: 8rem;
+    position: fixed;
+    top: 15.5rem;
+    transition: right .6s ease-in-out .1s, width .4s linear;
+}
+
+.sideMenuContainer ul li:nth-child(3){
+    width: 8rem;
+    position: fixed;
+    top: 18rem;
+    transition: right .7s ease-in-out .2s, width .4s linear;
+}
+
+.sideMenuContainer ul li:last-child{
+    width: 8rem;
+    position: fixed;
+    top: 23rem;
+    transition: right .6s ease-in-out .45s, width .4s linear;
+}
+
+/* transition states */
+
+.first-open{
+    right: 8rem;
+}
+
+.second-open{
+    right: 6rem;
+}
+
+.third-open{
+    right: 4rem;
+}
+
+.fourth-open{
+    right: 2rem;
+}
+
+.close-all {
+    right: -100%;
+}
+
+
+/* hover states */
+
+.sideMenuContainer ul li:first-child:hover {
+    width: 9rem;
+}
+
+.sideMenuContainer ul li:nth-child(2):hover {
+    width: 9rem;
+}
+
+.sideMenuContainer ul li:nth-child(3):hover {
+    width: 9rem;
+}
+
+.sideMenuContainer ul li:last-child:hover {
+    width: 9rem;
+}
