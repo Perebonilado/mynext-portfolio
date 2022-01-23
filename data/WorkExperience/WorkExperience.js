@@ -16,8 +16,7 @@ export const WorkExperinceData = [
     role: 'Software Engineer Intern',
     date: 'Jul 2021 - September 2021',
     description: [
-        'Worked in a team to translate an ERPS software tp multiple languages in order to allow for better reach and accessibility of technology even in the rural areas', 
-    'Built email templates for customers in order to allow for better representation when receiving emails within the organization as well as when interfacing with customers'
+        'Worked in a team to translate an ERPS software to multiple languages in order to allow for better reach and accessibility of technology even in the rural areas'
             ]
     },
 

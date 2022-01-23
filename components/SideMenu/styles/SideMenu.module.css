@@ -54,14 +54,14 @@
     width: 8rem;
     margin-top: 1rem;
     position: fixed;
-    top: 7rem;
+    top: 4rem;
     transition: right .6s ease-in-out,width .4s linear;
 }
 
 .sideMenuContainer ul li:nth-child(2) {
     width: 8rem;
     position: fixed;
-    top: 15.5rem;
+    top: 10rem;
     transition: right .6s ease-in-out .1s, width .4s linear;
 }
 
@@ -75,7 +75,7 @@
 .sideMenuContainer ul li:last-child{
     width: 8rem;
     position: fixed;
-    top: 23rem;
+    top: 15rem;
     transition: right .6s ease-in-out .45s, width .4s linear;
 }
 

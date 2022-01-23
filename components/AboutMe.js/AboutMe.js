@@ -33,7 +33,7 @@ const AboutMe = () => {
                 a soft spot for coding and building web applications. However, I got into Uni and took a break from coding as I 
                 found a new love, music! <br />
                 I made music for a while and I still do, I recently released a project which peaked at number one on the 
-                Itunes Nigeria charts. Although, I rekindled my love for coding in 2021. I dedicated my time to re-learning the latest
+                Itunes Nigeria charts. However, I rekindled my love for coding in 2021. I dedicated my time to re-learning the latest
                 technologies such as <span className={`${AboutMeStyles['sec-clr']}`}>JavaScript</span>, <span className={`${AboutMeStyles['sec-clr']}`}>React</span> and <span className={`${AboutMeStyles['sec-clr']}`}>Next js</span>. I have not stopped coding ever since. I hope
                 to contribute to tech by aiding in building revolutionary technology that changes lives!
             </p>
