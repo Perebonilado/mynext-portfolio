@@ -2,29 +2,20 @@ const data = [
     
     {
         id: 1,
-        name: 'Spotify Player Clone',
-        tech: 'HTML, CSS, and JavaScript',
-        description: `This project was a no brainer for me. I have a high penchant for music and the first thing I wanted to build was a music player.
-        I really want to combine my years of experience in the music industry with tech. I believe there are many opportunities, especially with the advent of web3. A musician knows a musicians problems, as such,
-        I believe, slowly but surely, I will make an impact in the music industry using tech. I built this using vanilla CSS and JavaScript, utilizing core programming concepts as well as ensuring clean code.`,
-        url: 'https://res.cloudinary.com/dt0wfaxft/image/upload/v1642802816/3ED0DB34-0D61-4D65-B5B3-01CBD44CD590_ruhahj.jpg',
-        github: 'https://github.com/Perebonilado/Spotify-Clone',
-        projectLink: 'https://perebonilado.github.io/Spotify-Clone/'
-    },
-    {
-        id: 2,
-        name: 'CICOD Self Service',
-        tech: 'HTML, CSS, and JavaScript, React js',
-        description: `This is a self service application allowing users communicate in order to resolve escalations rasied as tickets.
-        A ticket might be an issue that needs resolving, as such, with the use of the chat feature, users can communicate with each other based on a ticket raised and track the status of that ticket. The ticket ID is entered and the issue can be resolved using 
-        this web application. This web app was built using React js. I utilized the context api, react hooks such as useState and useEffect to build this project. The design was implemented using vanilla CSS as it was translated from an Adobe XD file by me. I built this product for Crown Interactive LTD, a software/SAAS company based in Lagos, Nigeria.`,
-        url: 'https://res.cloudinary.com/dt0wfaxft/image/upload/v1642802815/7A11518B-1A0C-42FC-AB49-7D17A7FF35A4_m0gl5t.jpg',
-        github: 'https://github.com/Perebonilado/cicod-self-service-react',
-        projectLink: 'https://wfm-ticket.netlify.app'
+        name: 'Blogging Web App',
+        tech: 'HTML, CSS, JavaScript, React js, and TypeScript',
+        description: `This is a Blog web app that uses various technologies, and principles. Each blog is fetched from a placeholder api, and then rendered to the screen.
+        There is a dedicated page for each blog post, as well as pagination to limit the number of blog posts per page. I also used TypeScript, a superset of JavaScript to build this
+        in React Js. Furthermore, there is a search bar which filters through the blog posts and renders the relevant results to the screen. I intend to keep improving on this by adding authentication and api end points
+        to allow people sign up and post their own blogs.`,
+        url: 'https://res.cloudinary.com/dt0wfaxft/image/upload/v1645604572/Screenshot_154_txdytz.png',
+        github: 'https://github.com/Perebonilado/Mlabs-blog-task.git',
+        projectLink: 'https://alaye-stories.netlify.app'
     },
 
+    
     {
-        id: 3,
+        id: 2,
         name: 'Crypto P2P Landing Page',
         tech: 'HTML, CSS, and JavaScript',
         description: `This is a landing page for a crypto trading platform in Africa. I enjoyed working on this project as I quite often stay in the know on the crypto markets.
@@ -34,10 +25,21 @@ const data = [
         github: 'https://github.com/Perebonilado/pezofoundation',
         projectLink: 'https://perebonilado.github.io/pezofoundation/'
     },
+        {
+            id: 3,
+            name: 'Spotify Player Clone',
+            tech: 'HTML, CSS, and JavaScript',
+            description: `This project was a no brainer for me. I have a high penchant for music and the first thing I wanted to build was a music player.
+            I really want to combine my years of experience in the music industry with tech. I believe there are many opportunities, especially with the advent of web3. A musician knows a musicians problems, as such,
+            I believe, slowly but surely, I will make an impact in the music industry using tech. I built this using vanilla CSS and JavaScript, utilizing core programming concepts as well as ensuring clean code.`,
+            url: 'https://res.cloudinary.com/dt0wfaxft/image/upload/v1642802816/3ED0DB34-0D61-4D65-B5B3-01CBD44CD590_ruhahj.jpg',
+            github: 'https://github.com/Perebonilado/Spotify-Clone',
+            projectLink: 'https://perebonilado.github.io/Spotify-Clone/'
+        },
 
     {
         id: 4,
-        name: 'Water Quality Checker',
+        name: 'Water Quality Calculator',
         tech: 'HTML, CSS, and JavaScript',
         description: `I graduated from the department of Zoology in the University of Ibadan. While studying, we would go to the field to carry out water
         quality analysis using macro invertebrates. After collecting the macro invertebrates, someone would start a timer and another peroson would have a text book handy for idetifying specimens. It was tedious.

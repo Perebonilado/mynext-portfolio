@@ -2,6 +2,8 @@ import navStyles from './styles/Navbar.module.css'
 import SideMenu from '../SideMenu/SideMenu';
 import { useAppContext } from '../../context/state';
 import Link from 'next/link'
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 const Navbar = () => {
     
@@ -32,6 +34,7 @@ const Navbar = () => {
 
 
     }
+
 
     return ( 
         <>

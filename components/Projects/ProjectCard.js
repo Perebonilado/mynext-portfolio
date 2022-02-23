@@ -10,9 +10,9 @@ const ProjectCard = ({ imageSrc, imageAlt, imageTitle, technologies, id}) => {
     return ( 
         <Link href={{pathname: '/project/[id]', query:{id: id}}} passHref>
         <motion.div
-        initial={{ opacity: 0, scale: .7 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: false }}
+        initial={{ translateY: 55}}
+        whileInView={{translateY:0, transition: {duration: .3}}}
+        viewport={{ once: true }}
 
      
         whileTap={{ scale: 0.8 }}
