@@ -36,7 +36,7 @@ const Project = ({project}) => {
     
     > 
         <div>
-        <Link href='/'>Retun Home</Link>
+        <Link href='/'>Return Home</Link>
         <img src={url} alt={name} />
         <h1>{name}</h1>
         <p className={`${ProjectStyles['tech']}`}>This project was built with: {tech}</p>
