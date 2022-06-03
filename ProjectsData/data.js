@@ -1,7 +1,24 @@
 const data = [
-    
+
     {
         id: 1,
+        name: 'Instagram Clone',
+        tech: 'HTML, CSS, Next js, Firebase, TypeScript, Google oAuth2',
+        description: `This is a fully functional clone of the
+        popular social media app, Instagram. Authentication is handled
+        by google oAuth, allowing you to create an account using google
+        as well as sign in and sign out. The upload feature is fully functional as well, however,
+        limited to images to save space. You may search for other users as well as follow and interact with their
+        posts by liking and commenting on them as those features are fully functional.
+        I enjoyed working on this project as it was fun to build a social media app you can use to interact with others.
+        The data base was built using the serverless firebase database.`,
+        url: 'https://res.cloudinary.com/dt0wfaxft/image/upload/v1654253067/Screenshot_191_gntdc5.png',
+        github: 'https://github.com/Perebonilado/instagram-clone',
+        projectLink: 'https://instagram-clone-perebonilado.vercel.app/'
+    },
+    
+    {
+        id: 2,
         name: 'Blogging Web App',
         tech: 'HTML, CSS, JavaScript, React js, and TypeScript',
         description: `This is a Blog web app that uses various technologies, and principles. Each blog is fetched from a placeholder api, and then rendered to the screen.
@@ -15,7 +32,7 @@ const data = [
 
     
     {
-        id: 2,
+        id: 3,
         name: 'Crypto P2P Landing Page',
         tech: 'HTML, CSS, and JavaScript',
         description: `This is a landing page for a crypto trading platform in Africa. I enjoyed working on this project as I quite often stay in the know on the crypto markets.
@@ -26,7 +43,7 @@ const data = [
         projectLink: 'https://perebonilado.github.io/pezofoundation/'
     },
         {
-            id: 3,
+            id: 4,
             name: 'Spotify Player Clone',
             tech: 'HTML, CSS, and JavaScript',
             description: `This project was a no brainer for me. I have a high penchant for music and the first thing I wanted to build was a music player.
@@ -36,33 +53,6 @@ const data = [
             github: 'https://github.com/Perebonilado/Spotify-Clone',
             projectLink: 'https://perebonilado.github.io/Spotify-Clone/'
         },
-
-    {
-        id: 4,
-        name: 'Water Quality Calculator',
-        tech: 'HTML, CSS, and JavaScript',
-        description: `I graduated from the department of Zoology in the University of Ibadan. While studying, we would go to the field to carry out water
-        quality analysis using macro invertebrates. After collecting the macro invertebrates, someone would start a timer and another peroson would have a text book handy for idetifying specimens. It was tedious.
-        As such, I built this application which has an in-built timer, computer generated vocals to update users on how much time they have left and when the time is up. Also, it has an in-built key for identifying organisms.
-        Moreover, after collecting and identifying organisms, we would have to then check their indexes and calculate the water quality. This process was prone to errors. As such, this application is programmed to check and match the index of the
-        organism inputed, calculate the water SIGNAL automatically and tell the user how polluted the water body is, saving time, increasing the quality of data and reducing errors.`,
-        url: 'https://res.cloudinary.com/dt0wfaxft/image/upload/v1642806219/E5BD6431-8FAF-49CA-ACB2-EF07B36B1ADF_lmgmck.jpg',
-        github: 'https://github.com/Perebonilado/water-quality',
-        projectLink: 'https://perebonilado.github.io/water-quality/'
-    },
-
-    {
-        id: 5,
-        name: 'Loan Calculator',
-        tech: 'HTML, CSS, and JavaScript',
-        description: `This loan calculator was one of my earliest projects. Users 
-        can input the amount they intend to borrow, at what interest rate, and for how long. This 
-        calculator then takes in those values, utilizes a finance formular and gives the user an amount
-        of how much they would pay back.`,
-        url: 'https://res.cloudinary.com/dt0wfaxft/image/upload/v1642806218/1346D013-0468-49AB-9EDA-E7F58F87A930_mdpevr.jpg',
-        github: 'https://github.com/Perebonilado/loan-calculator',
-        projectLink: 'https://perebonilado.github.io/loan-calculator/'
-    },
 
 ]
 
