@@ -54,7 +54,7 @@ const IntroSection = () => {
             scale: 1.1,
             ease: "ease-in-out",
           }}
-          animationType="diagonal"
+          animationType="float"
           interval={0.06}
           duration={0.8}
           tag="h3"
