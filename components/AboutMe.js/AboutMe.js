@@ -31,23 +31,21 @@ const AboutMe = () => {
         </h2>
         <p className={`${AboutMeStyles["about-me-text"]}`}>
           My name is Eradiri Richard, and I am absolutely in love with{" "}
-          <span className={`${AboutMeStyles["sec-clr"]}`}>coding</span> and
-          making <span className={`${AboutMeStyles["sec-clr"]}`}>music</span>. I
-          started coding in high school when I first had exposure to{" "}
+          <span className={`${AboutMeStyles["sec-clr"]}`}>
+            building software
+          </span>
+          . I started coding in high school when I first had exposure to{" "}
           <span className={`${AboutMeStyles["sec-clr"]}`}>HTML</span> and{" "}
           <span className={`${AboutMeStyles["sec-clr"]}`}>CSS</span>. I built a
           website for my school as a project, and it was from then I knew I had
-          a soft spot for coding and building web applications. However, I got
-          into Uni and took a break from coding as I found a new love, music!{" "}
-          <br />I made music for a while and I still do, I recently released a
-          project which peaked at number one on the Itunes Nigeria charts.
-          However, I rekindled my love for coding in 2021. I dedicated my time
-          to re-learning the latest technologies such as{" "}
+          a soft spot for coding and building web applications. So, I dedicated
+          my time to learning the latest technologies such as{" "}
           <span className={`${AboutMeStyles["sec-clr"]}`}>JavaScript</span>,{" "}
           <span className={`${AboutMeStyles["sec-clr"]}`}>React</span> and{" "}
-          <span className={`${AboutMeStyles["sec-clr"]}`}>Next js</span>. I have
-          not stopped coding ever since. I hope to contribute to tech by aiding
-          in building revolutionary technology that changes lives!
+          <span className={`${AboutMeStyles["sec-clr"]}`}>Next js</span>. I spend
+          every single day building and learning and I hope to keep contributing
+          to the tech industry by engineering revolutionary technologies that
+          change lives!
         </p>
       </motion.div>
 

@@ -31,7 +31,6 @@
 }
 
 .nav ul li:hover {
-    /* background-color: rgb(71, 204, 197); */
     border-bottom: 2px solid rgb(71, 204, 197);
     color: rgb(71, 204, 197);
 }

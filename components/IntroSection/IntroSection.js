@@ -27,20 +27,20 @@ const IntroSection = () => {
 
         <h3 className={`${IntroStyles["first-head"]}`}>Eradiri Richard</h3>
 
-        <h4>React Js/Next Js Developer</h4>
+        <h4>Software Developer | MERN Stack | Golang</h4>
 
         <p>
-          I am a frontend developer focused on building excellent
+          I am a Software Developer focused on building excellent
           <span className={`${IntroStyles["yellow"]}`}>
             {" "}
-            user interfaces
+            and performant web applications
           </span>{" "}
-          and delivering worldclass{" "}
+          while delivering worldclass{" "}
           <span className={`${IntroStyles["yellow"]}`}>
             user experiences
           </span>{" "}
           using the latest technologies. I love working in environments that
-          allow me to grow and contribute positively.
+          allow me grow and contribute positively.
         </p>
       </section>
 
