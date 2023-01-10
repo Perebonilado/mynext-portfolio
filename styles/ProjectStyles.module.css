@@ -2,22 +2,10 @@
     display: flex;
     padding-top: 10rem;
     position: relative;
-    padding-bottom: 100vh;
+    min-height: 100vh;
     
 }
 
-.container>div:first-child a{
-    align-self: flex-start;
-    margin-left: 4.3rem;
-    margin-bottom: 3rem;
-}
-
-
-.container>div:first-child{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .container>div:last-child{
     display: flex;
     flex-direction: column;
@@ -35,7 +23,6 @@
 
 .container h1{
     color: rgb(71, 204, 197);
-    text-align: center;
 }
 
 .container a{
@@ -47,24 +34,20 @@
     margin-top: -3rem;
     padding-top: .4rem;
     color: rgb(49, 143, 138);
-    border-left: 2px solid rgb(129, 240, 234);
-    border-bottom: 2px solid rgb(129, 240, 234);
     padding-bottom: .5rem;
     align-self: center;
     width: 50%;
-    text-align: center;
+    border-left: 2px solid rgb(71, 204, 197);
+    padding-left: 10px;
 }
 
 .project-link{
     text-decoration: none;
-    border-right: 2px solid rgb(129, 240, 234);
-    border-left: 2px solid rgb(129, 240, 234);
-    border-bottom: 2px solid rgb(129, 240, 234);
     padding-bottom: .5rem;
     color: rgb(49, 143, 138);
     align-self: center !important;
     width: 50%;
-    text-align: center;
+    padding-right: 10px;
 }
 
 .container img {
@@ -101,13 +84,13 @@
     font-style: italic;
     font-size: 14px;
     padding: 1.5rem 0;
-    text-align: center;
+    line-height: 1.7;
 }
 
 .description {
     padding: 1rem 0;
     text-align: justify;
-    line-height: 2rem;
+    line-height: 2;
     height: 50vh;
 }
 
@@ -115,6 +98,7 @@
 
     .container{
         flex-direction: column;
+        gap: 50px;
     }
 
 
@@ -122,16 +106,25 @@
         align-self: center;
     }
 
-    .project-link{
-        margin-right: 2.7rem !important;
+    .container>div:first-child {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 
-    .container>div:first-child a{
-        margin-left: 2.3rem;
-        align-self: flex-start;
+    .container>div:first-child a:last-child {
+        border-left: none;
+        padding: 0;
+        margin: 0;
     }
 
-
+    .project-link {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 10px;
+    }
    
 
 }

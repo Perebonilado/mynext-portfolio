@@ -16,15 +16,15 @@
 
 .nav ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     cursor: pointer;
     padding-right: .5rem;
+    gap: 30px;
 }
 
 .nav ul li {
     list-style: none;
-    padding: 1rem 3.5rem;
     transition: background-color 0.4s linear;
     border-radius: .5rem;
 }
