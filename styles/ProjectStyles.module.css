@@ -3,7 +3,7 @@
     padding-top: 10rem;
     position: relative;
     min-height: 100vh;
-    
+    gap: 30px;
 }
 
 .container>div:last-child{
@@ -23,6 +23,7 @@
 
 .container h1{
     color: rgb(71, 204, 197);
+    line-height: 1.5;
 }
 
 .container a{

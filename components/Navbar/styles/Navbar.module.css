@@ -27,10 +27,13 @@
     list-style: none;
     transition: background-color 0.4s linear;
     border-radius: .5rem;
+    padding: 10px 0;
 }
 
 .nav ul li:hover {
-    background-color: rgb(71, 204, 197);
+    /* background-color: rgb(71, 204, 197); */
+    border-bottom: 2px solid rgb(71, 204, 197);
+    color: rgb(71, 204, 197);
 }
 
 .nav ul li a{

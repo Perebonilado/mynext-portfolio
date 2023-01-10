@@ -45,21 +45,21 @@ const Project = ({ project }) => {
             <p className={`${ProjectStyles["tech"]}`}>
               This project was built with: {tech}
             </p>
-            <a
+            {github && <a
               href={github}
               rel="noreferrer"
               target="_blank"
               className={`${ProjectStyles["project-link"]}`}
             >
               Github
-            </a>
+            </a>}
             <a href={projectLink} rel="noreferrer" target="_blank">
               View Project
             </a>
           </div>
 
           <div>
-            <h2>Why I Built This</h2>
+            <h2>Description</h2>
             <p className={`${ProjectStyles["description"]}`}>{description}</p>
           </div>
         </motion.div>
