@@ -1,6 +1,7 @@
 import IntroStyles from "./styles/IntroSection.module.css";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import AnimatedText from "react-animated-text-content";
 
 const IntroSection = () => {
   return (
@@ -23,9 +24,47 @@ const IntroSection = () => {
       className={`${IntroStyles["intro-section"]}`}
     >
       <section className={`${IntroStyles["intro-container"]}`}>
-        <p className={`${IntroStyles["hello-text"]}`}>Hello, my name is </p>
+      <AnimatedText
+          type="words" // animate words or chars
+          animation={{
+            x: "200px",
+            y: "-20px",
+            scale: 1.1,
+            ease: "ease-in-out",
+          }}
+          animationType="float"
+          interval={0.06}
+          duration={0.8}
+          tag="p"
+          className="animated-paragraph hello-text"
+          includeWhiteSpaces
+          threshold={0.1}
+          rootMargin="20%"
+        >
+          Hello, my name is
+        </AnimatedText>
+        {/* <p className={`${IntroStyles["hello-text"]}`}> </p> */}
 
-        <h3 className={`${IntroStyles["first-head"]}`}>Eradiri Richard</h3>
+        {/* <h3 className={`${IntroStyles["first-head"]}`}>Eradiri Richard</h3> */}
+        <AnimatedText
+          type="chars" // animate words or chars
+          animation={{
+            x: "200px",
+            y: "-20px",
+            scale: 1.1,
+            ease: "ease-in-out",
+          }}
+          animationType="diagonal"
+          interval={0.06}
+          duration={0.8}
+          tag="h3"
+          className="animated-paragraph"
+          includeWhiteSpaces
+          threshold={0.1}
+          rootMargin="20%"
+        >
+          Eradiri Richard
+        </AnimatedText>
 
         <h4>Software Developer | MERN Stack | Golang</h4>
 
