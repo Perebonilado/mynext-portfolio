@@ -25,8 +25,13 @@ const WorkExperience = (props) => {
               {date}
             </p>
 
-            {description.map((info) => {
-              return <p key={info}>{info}</p>;
+            {description.map((info, idx) => {
+              return (
+                <p key={info}>
+                  {idx + 1}. 
+                  {" "+info}
+                </p>
+              );
             })}
           </motion.li>
         );
