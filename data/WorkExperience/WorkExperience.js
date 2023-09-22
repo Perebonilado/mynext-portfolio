@@ -27,7 +27,7 @@ export const WorkExperinceData = [
     id: 3,
     companyName: "Kabukabu, Lagos - Nigeria",
     role: "Frontend Developer (Contract)",
-    date: "July 2022 – Present",
+    date: "March 2023 - Jul 2023",
     description: [
       `Engineered a robust admin portal for a ride-hailing service using Next JS, Tailwind, and Redux toolkit, resulting in a 5X increase in product adoption that reflected the successful implementation of user-centric enhancements.`,
       `Designed and developed the company's website using Next JS with a focus on speed and performance optimization, which resulted in improvement in the company's public image and online presence.`,
